@@ -40,4 +40,12 @@ public class ListTest {
         assertEquals("in28Minutes", list.get(0));
         assertEquals("in28Minutes", list.get(1));
     }
+
+    @Test
+    public void letsMockListGetToThrowException() {
+        List<String> list = Mockito.mock(List.class);
+        Mockito.when(list.get(Mockito.anyInt())).thenThrow(
+                new RuntimeException("Something went wrong"));
+        assertThrows(RuntimeException.class, () -> list.get(0));
+    }
 }
