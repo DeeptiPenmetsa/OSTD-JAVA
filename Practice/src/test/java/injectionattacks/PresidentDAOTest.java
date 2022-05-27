@@ -1,8 +1,8 @@
 package injectionattacks;
 
-import InjectionAttacks.data.President;
-import InjectionAttacks.data.PresidentDAO;
-import InjectionAttacks.util.DatabaseUtil;
+import injectionattacks.data.President;
+import injectionattacks.data.PresidentDAO;
+import injectionattacks.util.DatabaseUtil;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import java.util.List;

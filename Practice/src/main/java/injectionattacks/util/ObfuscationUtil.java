@@ -1,4 +1,4 @@
-package InjectionAttacks.util;
+package injectionattacks.util;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

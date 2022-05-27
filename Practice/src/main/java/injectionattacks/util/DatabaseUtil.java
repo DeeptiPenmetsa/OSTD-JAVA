@@ -1,4 +1,4 @@
-package InjectionAttacks.util;
+package injectionattacks.util;
 
 import org.h2.tools.RunScript;
 

@@ -1,4 +1,4 @@
-package MovieList;
+package movielist;
 
 public class Movie {
     private String movieTitle;

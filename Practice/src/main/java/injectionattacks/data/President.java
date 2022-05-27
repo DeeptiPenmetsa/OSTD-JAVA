@@ -1,6 +1,6 @@
-package InjectionAttacks.data;
+package injectionattacks.data;
 
-import InjectionAttacks.util.ObfuscationUtil;
+import injectionattacks.util.ObfuscationUtil;
 
 public class President {
     private long id;
